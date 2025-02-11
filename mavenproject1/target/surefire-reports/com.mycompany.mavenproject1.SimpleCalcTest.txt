@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.mavenproject1.SimpleCalcTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.039 s <<< FAILURE! -- in com.mycompany.mavenproject1.SimpleCalcTest
+com.mycompany.mavenproject1.SimpleCalcTest.testGetDiv -- Time elapsed: 0.016 s <<< FAILURE!
+java.lang.AssertionError: expected:<0.8123> but was:<2.0>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:685)
+	at com.mycompany.mavenproject1.SimpleCalcTest.testGetDiv(SimpleCalcTest.java:56)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
